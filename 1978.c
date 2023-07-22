@@ -7,7 +7,6 @@ int main() {
     int i, j;
     for (i = a; i != 0; i--) {
         scanf("%d", &num);
-        //소수 검사
         for (j = 2; j < num; j++) {
             if (num % j == 0)
                 break;
